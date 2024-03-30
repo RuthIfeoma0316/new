@@ -1,0 +1,319 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(background.png);
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+
+.navbar{
+	height: 12%;
+	display: flex;
+	align-items: center;
+}
+
+.logo{
+	width: 50px;
+	cursor: pointer;
+	margin-top: 120px;
+}
+
+nav{
+	flex: 1;
+	text-align: right;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+}
+
+.row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+
+.col{
+	flex-basis; 50%;
+}
+
+h1{
+	color: #fff;
+	font-size: 50px;
+}
+
+li{
+	color: #fff;
+	font-size: 15px;
+	line-height: 15px;
+}
+
+p{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 15px;
+	text-shadow: 0 0 5px;
+	bottom: 50px;
+}
+
+button{
+	width: 180px;
+	color: #000;
+	font-size: 12px;
+	padding: 12px 0;
+	background: #fff;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	margin-top: 30px;
+}
+
+button:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+h5{
+	color: #fff;
+	text-shadow: 0 0 5px;
+}
+
+.card{
+	width: 200px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+
+.card1{
+	background-image: url(29.jpg);
+}
+
+.card2{
+	background-image: url(P33.jpg);
+}
+
+.card3{
+	background-image: url(P34.jpg);
+}
+
+.card4{
+	background-image: url(P36.avif);
+}
+
+.card5{
+	background-image: url(P23.jpeg);
+}
+
+.card6{
+	background-image: url(P37.jpg);
+}
+
+.card7{
+	background-image: url(P21.jpeg);
+}
+
+.card:hover{
+	transform: translateY(-10px);
+}
+
+.card p{
+	text-shadow:0 0 15px #000;
+	font-size: 12px;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #fff;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #fff;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+b{
+	color: white;
+}
+
+label{
+	color: white;
+	}
+
+footer{
+	margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    background-size: 100% 100%;
+	text-align: center;
+    padding: 3px;
+    color: white;
+	margin-bottom: 20px;
+}​
+
+h2{
+	margin-bottom: 30px;
+}
+
+div.web-footer{
+  line-height: 2.5;
+}
+
+div.social{
+	font-size: 30px;
+}
+
+ul.info{
+	display: inline-block;
+	text-align: left;
+}
+
+ul.menu{
+	text-align: center;
+}
+
+input[type=text], select{
+	width: 1170px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	
+}
+
+
+
+
+
+
+
+

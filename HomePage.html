@@ -1,0 +1,139 @@
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hospitality Academy</title>
+<link rel="stylesheet" href="StylePage.css">
+
+<link href="http://fonts.googleapis.com/css??family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+<div class="navbar">
+<img src="logo2.png" class="logo" style="width:250px;height:250px;">
+<nav>
+<ul class="menu">
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#contact">Contact Us</a></li>
+</ul>
+</nav>
+
+
+</div>
+
+<div class="row">
+<div class="col">
+<h1>Eastern Cape Hospitality Academy</h1>
+<li> Duration is 6 months - 3 months theory and 3 months practical.</li> 
+<li>R1000 registration plus R7000 for the course.</li>
+<li>70% pass mark.</li>
+ 
+<button type="button" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+</div>
+
+<div class="col">
+<div class="card card1">
+<h5>Bartender Training</h5>
+<p>Master mixology and bar management essentials.</p>
+</div>
+
+<div class="card card2">
+<h5>Barista Training</h5>
+<p>Learn coffee preparation and latte art techniques.</p>
+</div>
+
+<div class="card card3">
+<h5>Waitering</h5>
+<p>Develop execeptional service skills for the restuarant industry.</p>
+</div>
+
+<div class="card card4">
+<h5>Spirits and Pairing</h5>
+<p>Explore distilled beverages and food pairing principles.</p>
+</div>
+
+<div class="card card5">
+<h5>Wine Training</h5>
+<p>Gain knowledge of wine regions, tasting, and pairing.</p>
+</div>
+
+<div class="card card6">
+<h5>Hostess</h5>
+<p>Learn guest reception and front-of-house management.</p>
+</div>
+
+<div class="card card7">
+<h5>Mixology</h5>
+<p>Elevate cocktail craft with advanced mixology techniques.</p>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to sign up for a course.</p>
+      <hr>
+      <label for="fname"><b>First Name</b></label>
+      <input type="text" placeholder="Enter First Name" name="fname" required>
+
+      <label for="lname"><b>Last Name</b></label>
+      <input type="text" placeholder="Enter Last Name" name="lname" required>
+
+      <label for="courses">Choose Course:</label>
+      <select id="courses" name="courses">
+      <option value="choose">Choose Course</option>
+      <option value="bartender">Bartender Training</option>
+      <option value="barista">Barista Training</option>
+      <option value="waiter">Waitering</option>
+      <option value="spirits">Spirits and Pairing</option>
+	  <option value="wine">Wine Training</option>
+	  <option value="hostess">Hostess</option>
+	  <option value="mixology">Mixology</option>
+      </select>
+      
+      <label>
+       <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<footer>
+<div class="web-footer" id="contact">
+<h2>Contact Us</h2>
+
+<ul class="info">
+<li>Email: jjfji@bbvbfv.com</li>
+<li>Phone: +27 686 552 8585</li>
+<li>Address: uuihrf, hhhf, fhhhf, fhhhjf</li>
+</ul>
+
+<div class="social">
+      <i class="fab fa-facebook-square"></i>
+      <i class="fab fa-twitter-square"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+</div>
+</footer>
+</body>
+
+
+
+</html>
